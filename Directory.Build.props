@@ -1,0 +1,29 @@
+<Project>
+  <PropertyGroup Label="SDK Versions">
+    <NetStandardTargetVersion>netstandard2.1</NetStandardTargetVersion>
+    <NetCoreTargetVersion>netcoreapp3.1</NetCoreTargetVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Configurations">
+    <BuildConfigurations>Debug;Release</BuildConfigurations>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Common Package Versions">
+    <CSharpFunctionalExtensions>2.3.0</CSharpFunctionalExtensions>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Test Package Versions">
+    <FluentAssertionsVersion>5.10.0</FluentAssertionsVersion>
+    <XUnitPackageVersion>2.4.1</XUnitPackageVersion>
+    <XUnitRunnerVisualstudio>2.4.1</XUnitRunnerVisualstudio>
+  </PropertyGroup>
+
+  <PropertyGroup Label="CLI Tools Versions">
+    <DotnetXUnitPackageVersion>2.3.1</DotnetXUnitPackageVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(MSBuildProjectDirectory)/obj/**/*</DefaultItemExcludes>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(MSBuildProjectDirectory)/bin/**/*</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>
